@@ -16,7 +16,7 @@ public class p_1000 {
 //		}
 
 //		6시간 쪼개기
-		for(int i=0; i<72; i++) {
+		for(int i=0; i<72; i++) { 
 			int hh = (5*i)/60;
 			String mm = String.format("%02d",  (5*i)%60);
 			String realLogTime = (now + hh) + mm;
